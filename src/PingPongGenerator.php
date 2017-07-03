@@ -9,10 +9,12 @@
                 return "error";
             } else {
                 $array = [];
-                // $index = 0;
-                // $counter_limit = $input_number;
                 for ($index = 1; $index <= $input_number; $index++) {
                     array_push($array, $index);
+                    if (($index % 3) == 0) {
+                        array_pop($array);
+                        array_push($array, "ping");
+                    }
                 }
                 return $array;
             }
