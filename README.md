@@ -25,6 +25,9 @@ This web application allows users to input a number, and the program will count 
 * click "Home" to return to the home page.
 
 ## Specifications
+* It should tell the user to enter a lower number if the inputted number exceeds 1000.
+    * Input: 1001
+    * Output: "Please enter a lower number. I'm not Watson"
 * It should inform the user to enter a positive number if the field is left blank.
     * Input: " "
     * Output: "Please fill out this field"
