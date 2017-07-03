@@ -4,7 +4,7 @@
     {
         function generatePingPongArray($input_number)
         {
-
+            return "error";
         }
     }
 ?>
