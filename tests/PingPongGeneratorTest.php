@@ -47,6 +47,16 @@
             $this->assertEquals([1,2,"ping",4,"pong"], $result);
         }
 
+        function test_DivideByFifteen()
+        {
+
+            $test_PingPongGenerator = new PingPongGenerator;
+            $input = 15;
+
+            $result = $test_PingPongGenerator->generatePingPongArray($input);
+
+            $this->assertEquals([1,2,"ping",4,"pong","ping",7,8,"ping","pong",11,"ping",13,14,"ping-pong"], $result);
+        }
     }
 
 ?>

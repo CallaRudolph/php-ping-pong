@@ -11,7 +11,10 @@
                 $array = [];
                 for ($index = 1; $index <= $input_number; $index++) {
                     array_push($array, $index);
-                    if (($index % 3) == 0) {
+                    if (($index % 15) == 0) {
+                       array_pop($array);
+                       array_push($array, "ping-pong");
+                    } else if (($index % 3) == 0) {
                         array_pop($array);
                         array_push($array, "ping");
                     } else if (($index % 5) == 0) {
