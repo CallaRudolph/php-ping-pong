@@ -20,7 +20,7 @@ This web application allows users to input a number, and the program will count 
     * type 'cd php-ping-pong' to access the document root (project folder) on your computer
     * type 'composer install' to download dependencies (Silex & Twig)
     * type 'cd web' to access web folder, then type 'php -S localhost:8000' to open local server
-* Open browser and type 'localhost:8000' to view address book.
+* Open browser and type 'localhost:8000' to view Ping Pong.
 * Enter in a number, and you will se your pings and pongs!
 * click "Home" to return to the home page.
 
