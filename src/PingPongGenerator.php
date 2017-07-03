@@ -4,7 +4,9 @@
     {
         function generatePingPongArray($input_number)
         {
-            return "error";
+            if (!is_numeric($input_number)) {
+                return "error";
+            }
         }
     }
 ?>
