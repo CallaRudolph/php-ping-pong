@@ -14,6 +14,9 @@
                     if (($index % 3) == 0) {
                         array_pop($array);
                         array_push($array, "ping");
+                    } else if (($index % 5) == 0) {
+                        array_pop($array);
+                        array_push($array, "pong");
                     }
                 }
                 return $array;
