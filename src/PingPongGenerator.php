@@ -5,9 +5,9 @@
         function generatePingPongArray($input_number)
         {
 
-            if (!is_numeric($input_number)) {
-                return "error";
-            } else {
+            // if (!is_numeric($input_number)) {
+            //     return "error";
+            // } else {
                 $array = [];
                 for ($index = 1; $index <= $input_number; $index++) {
                     array_push($array, $index);
@@ -23,7 +23,7 @@
                     }
                 }
                 return $array;
-            }
+            // }
         }
     }
 ?>
